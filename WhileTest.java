@@ -2,7 +2,7 @@ package com.itacademy.lesson3;
 
 public class WhileTest {
     public static void main(String[] args) {
-        for (int i = 0; i < ; i++) {
+        for (int i = 0; i <5; i++) {
             System.out.println(i);
         }
     }
