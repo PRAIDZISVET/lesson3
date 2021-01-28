@@ -2,18 +2,24 @@ package com.itacademy.lesson3;
 
 public class SecondTask {
     public static void main(String[] args) {
-        int inputValue = 6;
+        int inputValue = 3;
+    //решение с помощью for:
+    //factorial();
 
-        //решение с помощью for:
-        //    System.out.println(factorialRecursive(inputValue));
+            System.out.println(factorialRecursive(inputValue));
 
         //решение с помощью while
+       // int result = whileFactorial(inputValue);
+       // System.out.println(result);
+    }
+
+    private static int whileFactorial(int inputValue) {
         int result = 1;
         while (inputValue >  0) {
             result *= inputValue;
             inputValue--;
         }
-        System.out.println(result);
+        return result;
     }
 
     private static int factorialRecursive (int value) {
